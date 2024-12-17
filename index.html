@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice-Over App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/voice.png" type="image/png">
+
+</head>
+<body>
+    <div class="main-box">
+        <h2>Text to Voice <span>Converter</span></h2>
+        <textarea  id="input-text" placeholder="Enter text here..."></textarea>
+
+        <div class="features">
+            <div class="language">
+                <label for="language" class="l-btn">Language </label>
+                <select id="language">
+                    <!-- <option value="ar-eg">Arabic (Egypt)</option>
+                    <option value="ar-sa">Arabic (Saudi Arabia)</option>
+                    <option value="bg-bg">Bulgarian</option>
+                    <option value="ca-es">Catalan</option>
+                    <option value="zh-cn">Chinese (China)</option>
+                    <option value="zh-hk">Chinese (Hong Kong)</option>
+                    <option value="zh-tw">Chinese (Taiwan)</option>
+                    <option value="hr-hr">Croatian</option>
+                    <option value="cs-cz">Czech</option>
+                    <option value="da-dk">Danish</option>
+                    <option value="nl-be">Dutch (Belgium)</option>
+                    <option value="nl-nl">Dutch (Netherlands)</option>
+                    <option value="en-au">English (Australia)</option>
+                    <option value="en-ca">English (Canada)</option>
+                    <option value="en-gb">English (Great Britain)</option>
+                    <option value="en-in">English (India)</option>
+                    <option value="en-ie">English (Ireland)</option>
+                    <option value="en-us">English (United States)</option>
+                    <option value="fi-fi">Finnish</option>
+                    <option value="fr-ca">French (Canada)</option>
+                    <option value="fr-fr">French (France)</option>
+                    <option value="fr-ch">French (Switzerland)</option>
+                    <option value="de-at">German (Austria)</option>
+                    <option value="de-de">German (Germany)</option>
+                    <option value="de-ch">German (Switzerland)</option>
+                    <option value="el-gr">Greek</option>
+                    <option value="he-il">Hebrew</option>
+                    <option value="hi-in">Hindi</option>
+                    <option value="hu-hu">Hungarian</option>
+                    <option value="id-id">Indonesian</option>
+                    <option value="it-it">Italian</option>
+                    <option value="ja-jp">Japanese</option>
+                    <option value="ko-kr">Korean</option>
+                    <option value="ms-my">Malay</option>
+                    <option value="nb-no">Norwegian</option>
+                    <option value="pl-pl">Polish</option>
+                    <option value="pt-br">Portuguese (Brazil)</option>
+                    <option value="pt-pt">Portuguese (Portugal)</option>
+                    <option value="ro-ro">Romanian</option>
+                    <option value="ru-ru">Russian</option>
+                    <option value="sk-sk">Slovak</option>
+                    <option value="sl-si">Slovenian</option>
+                    <option value="es-mx">Spanish (Mexico)</option>
+                    <option value="es-es">Spanish (Spain)</option>
+                    <option value="sv-se">Swedish</option>
+                    <option value="ta-in">Tamil</option>
+                    <option value="th-th">Thai</option>
+                    <option value="tr-tr">Turkish</option>
+                    <option value="vi-vn">Vietnamese</option> -->
+                </select>
+                
+            </div>
+
+            <div class="pitch">
+                <label for="pitch">Pitch <span id="pitch-display"> </span></label>
+                <input type="range" id="pitch" min="0" max="2" step="0.1" value="1">
+            </div>
+            <div class="speed">
+                <label for="rate">Speed <span id="speed-display"> </span></label>
+                <input type="range" id="rate" min="0.5" max="2" step="0.1" value="1">
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button class="listen"><img src="images/play.png">Listen</button>
+            <button class="download"><img src="images/download.png" > Download</button>
+        </div>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+ <script src="script.js"></script>   
+</body>
+</html>
