@@ -9,6 +9,16 @@
 
 </head>
 <body>
+    <div class="helpclass">
+        <button class='show' onclick="showHelp()"><img src="images/question.png" alt="help-png"></button>
+
+        <div id="help-modal" style="display:none;">
+            <p>1. Type the text you want to convert to speech.</p>
+            <p>2. Customize the voice settings (language, pitch, speed).</p>
+            <p>3. Click "Listen" to preview or "Download" to save.</p>
+            <button class='close' onclick="closeHelp()">Close</button>
+        </div>
+    </div>
     <div class="main-box">
         <h2>Text to Voice <span>Converter</span></h2>
         <textarea  id="input-text" placeholder="Enter text here..."></textarea>
@@ -92,11 +102,15 @@
 
 
 
-
-
-
-
-
+<script>
+        function showHelp() {
+            document.getElementById('help-modal').style.display = 'block';
+        }
+    
+        function closeHelp() {
+            document.getElementById('help-modal').style.display = 'none';
+        }
+</script>
 
 
  <script src="script.js"></script>   

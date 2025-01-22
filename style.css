@@ -245,10 +245,39 @@ button{
         justify-content: center;
         max-width: 750px;
     }
+
+   
+    #help-modal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        max-width: 300px;
+        height: 250px;
+        background-color: #ed1e78f4 !important;
+        padding: 10px;
+        margin-left: -230px;
+        border-radius: 10px;
+    }
+    #help-modal p{
+        padding: 10px;
+        color: white;
+    }
+    
+    .close{
+        width: 100px;
+        height: 40px !important;
+        font-size: 15px !important;
+        justify-self: center;
+        padding: 10px;
+    }
+
+
 }
 
 
-@media (max-width: 668px){
+@media (min-width: 668px) and (max-width:767px){
     .main-box{
         width: 100%;
         height: 100vh;   
@@ -356,6 +385,254 @@ button{
         top: 10px;
         width: 18px;
     }
+    .helpclass{
+        position: fixed;
+        left: 75% !important;
+        top: 5% !important;
+    }
+    .helpclass .show img{
+        width: 20px !important;
+
+    }
+    #help-modal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        max-width: 300px;
+        height: 250px;
+        background-color: #ed1e78f4 !important;
+        padding: 10px;
+        margin-left: -230px;
+        border-radius: 10px;
+    }
+    #help-modal p{
+        padding: 10px;
+        color: white;
+    }
+    
+    .close{
+        width: 100px;
+        height: 40px !important;
+        font-size: 15px !important;
+        justify-self: center;
+        padding: 10px;
+    }
     
 
+}
+@media (min-width: 1025px){
+    
+
+    #help-modal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        max-width: 300px;
+        height: 250px;
+        background-color: #ed1e78f4 !important;
+        padding: 10px;
+        margin-left: -230px;
+        border-radius: 10px;
+    }
+    #help-modal p{
+        padding: 10px;
+        color: white;
+    }
+    
+    .close{
+        width: 100px;
+        height: 40px !important;
+        font-size: 15px !important;
+        justify-self: center;
+        padding: 10px;
+    }
+    
+}
+@media (max-width: 667px){
+    .main-box{
+        width: 100%;
+        height: 100vh;   
+    }
+    
+    .main-box h2{
+        font-size: 24px;
+    }
+
+    .features{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5px;
+        margin: 10px;
+        background: #ed1e79;
+        border-radius: 10px;
+        flex-direction: column;
+    }
+
+    .features .language, .pitch, .speed{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        padding: 15px;
+        gap: 20px;
+        width: 300px;
+    }
+    .features .language{
+        border-radius: 10px 10px 0 0;
+    }
+
+    .language .l-btn{
+        margin-left: 0px;
+    }
+
+    .language select{
+        border-radius: 5px;
+        padding: 8px;
+        width: 150px;
+        height: 100%;
+        font-size: 12px;
+        padding-right: 25px;
+        
+    }
+
+
+    label{
+        padding: 8px 10px;
+        background-color: white;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        width: 150px;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 5px;
+        
+    }
+
+    button{
+        padding: 10px 20px;
+        width: 280px;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 50px;
+        border: 0;
+        outline: 0;
+    }
+
+    .buttons .listen img{
+    width: 20px;
+    position: absolute;
+    left: 75px;
+    }
+
+    .buttons .download img{
+        position: absolute;
+        left: 60px;
+        top: 13px;
+        width: 18px;
+    }
+
+    .buttons .listen:hover{
+        transform: scale(1.05);
+    }
+
+    .buttons .download:hover{
+        background-color: #ed1e79;
+
+    }
+    
+    .buttons .listen img{
+        width: 20px;
+        position: absolute;
+        left: 85px;
+    }
+    
+    .buttons .download img{
+        position: absolute;
+        left: 75px;
+        top: 10px;
+        width: 18px;
+    }
+    .helpclass{
+        position: fixed;
+        left: 75% !important;
+        top: 5% !important;
+    }
+    .helpclass .show img{
+        width: 20px !important;
+
+    }
+    #help-modal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        max-width: 300px;
+        height: 250px;
+        background-color: #ed1e78f4 !important;
+        padding: 10px;
+        margin-left: -230px;
+        border-radius: 10px;
+    }
+    #help-modal p{
+        padding: 10px;
+        color: white;
+    }
+    
+    .close{
+        width: 100px;
+        height: 40px !important;
+        font-size: 15px !important;
+        justify-self: center;
+        padding: 10px;
+    }
+    
+}
+
+.helpclass{
+    position: fixed;
+    left: 75%;
+    top: 15%;
+}
+.helpclass .show{
+    width: 100px;
+    background: none;
+}
+.helpclass .show img{
+    width: 50px;
+    cursor: pointer;
+}
+
+#help-modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 300px;
+    height: 250px;
+    background-color: #ed1e78f4 !important;
+    padding: 10px;
+    margin-left: -230px;
+    border-radius: 10px;
+}
+#help-modal p{
+    padding: 10px;
+    color: white;
+}
+
+.close{
+    width: 100px;
+    height: 40px !important;
+    font-size: 15px !important;
+    justify-self: center;
+    padding: 10px;
 }
